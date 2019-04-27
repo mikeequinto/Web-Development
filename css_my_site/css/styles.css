@@ -1,12 +1,45 @@
-.box{
-   height: 200px;
-   width: 200px;
+body{
+  margin: 0;
+  text-align: center;
+  background-color: #eaf5ff;
+  font-family: 'Merriweather', serif;
 }
-.top{
-}
-.middle{
 
+h1{
+  font-size: 50px;
+  width: 15%;
+  margin: 0 auto 0 auto;
+  margin-top: 0;
+  font-family: 'Sacramento', cursive;
 }
-.bottom{
 
+h2{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.top-container{
+    padding-top: 100px;
+    position: relative;
+}
+
+.cloud-top{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.cloud-bottom{
+  position:absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.skill-image-container{
+  width: 30%;
+  margin: auto;
+}
+.skill-image-container img{
+  max-width: 100%;
 }
